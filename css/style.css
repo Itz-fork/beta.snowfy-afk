@@ -18,7 +18,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(../img/snoowfytol.jpg);
+    background-image: url(TeamTC/Snowfyafkback.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -33,6 +33,25 @@
 {
     width: 200px;
     cursor: pointer;
+}
+/* Here is Side Nav bar */
+#sideNavSnowfy{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background-color: rgb(24, 145, 145);
+    z-index: 2;
+    transition: .6s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 .navbar
 {
@@ -77,11 +96,13 @@ h1
     right: 0;
     top: 0;
 }
-.menu
-{
-    display: block;
-    width: 25px;
-    margin: 40px auto 0;
+#menuSnow{
+    width: 34px;
+    position: fixed;
+    right: 10px;
+    top: 35px;
+    background: transparent;
+    z-index: 2;
     cursor: pointer;
 }
 .adowhybn-links img{
@@ -172,21 +193,33 @@ h1
     animation-delay: 7.4s;
     width: 30px;
 }
-footer{
+
+/* Here is the footer Content */
+
+#footfy{
+    padding: 1px 0 20px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 3px solid rgb(33, 235, 225);
+}
+#footfy{
     display: flex;
-    background-color: #078a99;
+    background-color: #1c96a3;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 14px;
     width: 100%;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(17, 186, 228);
     justify-content: center;
     align-items: center;
 }
-.footerfy{
-    color: rgb(34, 36, 35);
+.footfy-mid-col{
+    color: rgb(45, 48, 46);
     font-family: sans-serif;
     margin: auto;
+}
 }
